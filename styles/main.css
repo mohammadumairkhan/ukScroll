@@ -1,0 +1,29 @@
+.TOSAgreement {
+  border: 1px solid #666666;
+  width: 99%;
+  padding: .5%;
+  resize: none;
+  height: 200px;
+  overflow: auto;
+  margin-top: 10px;
+  Background-color: #fff;
+}
+
+.agreeRadioWrap {
+  margin: 20px 0;
+}
+
+.singleRadioField {
+  margin: 5px 0;
+  overflow: hidden;
+  input[type=radio] {
+    float: left;
+    margin: 0px;
+  }
+  label {
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
